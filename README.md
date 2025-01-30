@@ -20,12 +20,12 @@ This project is a web application for The Sanjivani NGO. It's built using **Reac
 
 Clone the repository:
 ```bash
-git clone https://github.com/bhaveshpatil07/The-Sanjivani-NGO-ReactJs
+git clone https://github.com/KARTIKPAUL/Karunadu-.git
 ```
 ##### Move to the desired folder:
 
 ```bash
-cd sanjivani
+cd Karunadu
 ```
 
 ##### Install the dependencies:
