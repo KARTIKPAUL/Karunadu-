@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import logo from "../assets/vajjiramLogo.jpg";
+import logo from "../assets/vajjiramLogo.png";
 import {FaUserTie} from "react-icons/fa";
 
 export default function Navbar() {
