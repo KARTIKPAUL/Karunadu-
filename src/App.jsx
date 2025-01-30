@@ -46,9 +46,10 @@ import ForgotPassword from './components/ForgotPassword';
 import UserDashboard from './components/Dashboards/UserDashboard';
 import VolunteerDashboard from './components/Dashboards/VolunteerDashboard';
 import AdminDashboard from './components/Dashboards/AdminDashboard';
+import BlogPage from "./pages/Blog.jsx";
 
 import './App.css';
-import BlogPage from "./pages/Blog.jsx";
+
 
 
 
@@ -68,6 +69,7 @@ const AppContent = () => {
         <Route exact path="/our-products/dry-fruites" element={<Team />} />
         <Route exact path="/our-products/whole-spices" element={<Gallery />} />
         <Route exact path="/our-products/suger" element={<DonateUs />} />
+        <Route exact path="/blog" element={<BlogPage />} />
         <Route exact path="/what-we-do/rural-development" element={<RuralDevelopment />} />
         <Route exact path="/what-we-do/women-empowerment" element={<WomenEmpowerMent />} />
         <Route exact path="/what-we-do/know-more" element={<KnowMore />} />
@@ -89,7 +91,7 @@ const AppContent = () => {
         <Route exact path="/what-we-do" element={<WhatWeDo />} />
         {/* <Route exact path="/freeservice" element={<FreeService />}/> */}
         <Route exact path="/free" element={<Frees />} />
-        <Route exact path="/blog" element={<BlogPage />} />
+        
 
 
         

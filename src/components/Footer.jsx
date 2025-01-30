@@ -33,7 +33,7 @@ export default function Footer() {
                         <Link to="/privacy-policy" className="block text-white hover:text-yellow-300">Privacy Policy</Link>
                         <Link to="/cookies" className="block text-white hover:text-yellow-300">Cookies</Link>
                         <Link to="/helps" className="block text-white hover:text-yellow-300">Help</Link> */}
-                        <a href="#" className="block text-white hover:text-yellow-300">Blog</a>
+                        <a href="/blog" className="block text-white hover:text-yellow-300">Blog</a>
                         <Link to="/faqs" className="block text-white hover:text-yellow-300">FAQs</Link>
                     </div>
 
@@ -53,16 +53,16 @@ export default function Footer() {
                             {/* <a href="https://x.com/rsjrdfoundation" className="text-white hover:text-yellow-300">
                                 <i className="fab fa-twitter"></i>
                             </a> */}
-                            <a href="https://www.facebook.com/rsjrdfoundation" className="text-white hover:text-yellow-300">
+                            <a href="https://www.facebook.com" className="text-white hover:text-yellow-300">
                                 <i className="fab fa-facebook-f"></i>
                             </a>
-                            <a href="https://www.instagram.com/rsjrdfoundation/" className="text-white hover:text-yellow-300">
+                            <a href="https://www.instagram.com" className="text-white hover:text-yellow-300">
                                 <i className="fab fa-instagram"></i>
                             </a>
                             {/* <a href="https://www.youtube.com/@rsjrdfoundatio" className="text-white hover:text-yellow-300">
                                 <i className="fab fa-youtube"></i>
                             </a> */}
-                            <a href="https://www.linkedin.com/company/rsjrdfoundation/" className="text-white hover:text-yellow-300">
+                            <a href="https://www.linkedin.com" className="text-white hover:text-yellow-300">
                                 <i className="fab fa-linkedin-in"></i>
                             </a>
                         </div>
@@ -94,13 +94,13 @@ export default function Footer() {
 
                 {/* Copyright Section */}
                 <div className="border-t border-gray-600 mt-8 pt-4">
-                    <div className="grid grid-cols-1 md:grid-cols-2 text-center md:text-left">
-                        <div className="text-sm text-white">
-                            &copy; <a href="#" className="text-white hover:text-yellow-300">RSJ RURAL DEVELOPMENT FOUNDATION</a> | 2025, All Rights Reserved.
+                    <div className="">
+                        <div className="text-sm text-white text-center">
+                            &copy; <a href="#" className="text-white hover:text-yellow-300"> Vajjiram Agro Foods India (OPC) Private Limited</a> | 2025, All Rights Reserved.
                         </div>
-                        <div className="text-sm text-white md:text-right">
+                        {/* <div className="text-sm text-white md:text-right">
                             Design & Developed by <a href="https://www.kodekalp.com" className="text-[#ffcc00] hover:text-[#ffcc00]">KodeKalp Global Technologies Private Limited</a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

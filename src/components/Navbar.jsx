@@ -147,7 +147,7 @@ export default function Navbar() {
               <i className="fab fa-twitter"></i>
             </a> */}
             <a
-              href="https://www.facebook.com/rsjrdfoundation"
+              href="https://www.facebook.com"
               className="text-[#ffcc00] "
               target="_blank"
               rel="noopener noreferrer"
@@ -155,7 +155,7 @@ export default function Navbar() {
               <i className="fab fa-facebook-f"></i>
             </a>
             <a
-              href="https://www.instagram.com/rsjrdfoundation/"
+              href="https://www.instagram.com"
               className=" text-[#ffcc00]"
               target="_blank"
               rel="noopener noreferrer"
@@ -171,7 +171,7 @@ export default function Navbar() {
               <i className="fab fa-youtube"></i>
             </a> */}
             <a
-              href="https://www.linkedin.com/company/rsjrdfoundation/"
+              href="https://www.linkedin.com"
               className=" text-[#ffcc00]"
               target="_blank"
               rel="noopener noreferrer"

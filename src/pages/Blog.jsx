@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const BlogPage = () => {
   return (
     <>
-      <PageHeader title="Blog" path="/blog" name="Sugar" />
+      <PageHeader title="Blog" path="/blog" name="Blog" />
 
       {/* Blog Section */}
       <div className="bg-gradient-to-r from-gray-700 to-gray-900 text-center text-white relative py-16">
